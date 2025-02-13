@@ -15,7 +15,7 @@ fun ListadoView(){
     Column(modifier = Modifier.fillMaxSize()) {
         TerminalView()
         TarjetaView()
-        TarjetaView(colortext = Color.White, background = Color.Red, tipodebanco = "Santander")
+        TarjetaView(colortext = Color.White, background = Color.Red, tipodebanco = "Santander!")
     }
     
 
